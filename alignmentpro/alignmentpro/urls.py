@@ -16,6 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from exporting import views
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('standardnodes/', views.StandardNodeCsvView.as_view()),
 ]

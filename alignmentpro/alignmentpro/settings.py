@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'treebeard',                  # for TreeAdmin views
     'alignmentapp',
     # 'commonstandardsproject',   # tmp to extract CCSS and NGSS data
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
