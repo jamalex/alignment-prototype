@@ -13,6 +13,7 @@ django-treebeard = "*"
 psycopg2-binary = "*"
 djangorestframework = "*"
 djangorestframework-csv = "*"
+requests = "*"
 
 [requires]
 python_version = "3.7"

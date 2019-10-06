@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'alignmentapp',
     # 'commonstandardsproject',   # tmp to extract CCSS and NGSS data
     'rest_framework',
+    'importing',
+    'exporting',
 ]
 
 MIDDLEWARE = [
